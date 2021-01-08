@@ -1,0 +1,22 @@
+.wrapper{
+    width: 20%;
+    text-align: center;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #25AFF3;
+    background-color: aqua;
+    width: 80%;
+    margin: 5px auto;
+    padding: 6px 0;
+    border-radius: 5px;
+    border: 2px solid #25AFF3;
+}
+
+.link.active {
+    color: red;
+}

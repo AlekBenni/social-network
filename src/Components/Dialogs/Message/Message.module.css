@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users{
+    width: 20%;
+}
+
+.users a{
+    text-decoration: none;
+}
+
+.user{
+    display: block;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+    border-radius: 5px;
+    margin: 5px auto;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.user:hover{
+    background: linear-gradient(to bottom, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 29%, rgba(246,41,12,1) 49%, rgba(241,111,92,1) 50%, rgba(248,80,50,1) 100%);
+}
+
+.messages{
+    width: 80%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}

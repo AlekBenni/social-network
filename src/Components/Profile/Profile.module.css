@@ -1,0 +1,42 @@
+.wrapper{
+    width: 80%;
+    padding-right: 10px;
+}
+
+.img_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    max-width: 50%;
+}
+
+.text_wrapper{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.text_wrapper h3{
+    margin: 0;
+}
+
+.description{
+    background-color: aqua;
+    width: 80%;
+    margin: 80px auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description h4{
+    margin: 0;
+}
+
+.description_wrapper{
+    padding-left: 10px;
+}
+

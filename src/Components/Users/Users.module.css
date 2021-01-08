@@ -1,0 +1,31 @@
+.wrapper{
+    width: 80%;
+    outline:  1px solid red;
+    padding-right: 10px;
+}
+
+.imgStyle {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+
+.itemStyle {
+
+}
+
+.mainStyle {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #30A8E4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.selectsdPage {
+    padding: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
